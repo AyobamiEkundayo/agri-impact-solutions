@@ -15,6 +15,8 @@ import heroImage2 from "@/assets/products-hero-2.jpg";
 import cassavaImage from "@/assets/product-cassava.jpg";
 import maizeImage from "@/assets/product-maize.jpg";
 import soybeanImage from "@/assets/product-soybean.jpg";
+import shearNutsImage from "@/assets/product-shear-nuts.jpg";
+import sorghumImage from "@/assets/product-sorghum.jpg";
 
 const Products = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -55,13 +57,13 @@ const Products = () => {
     {
       name: "Shear Nuts",
       description: "High-quality shear nuts sustainably harvested from Nigerian farms. Excellent source of natural oils and perfect for various applications.",
-      image: maizeImage,
+      image: shearNutsImage,
       category: "Nuts",
     },
     {
       name: "Sorghum",
       description: "Premium sorghum grains ideal for livestock feed and food processing. Drought-resistant crop with excellent nutritional value.",
-      image: soybeanImage,
+      image: sorghumImage,
       category: "Grains",
     },
   ];
