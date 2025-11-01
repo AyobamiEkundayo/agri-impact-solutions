@@ -15,6 +15,7 @@ import heroImage2 from "@/assets/products-hero-2.jpg";
 import cassavaImage from "@/assets/product-cassava.jpg";
 import maizeImage from "@/assets/product-maize.jpg";
 import soybeanImage from "@/assets/product-soybean.jpg";
+import cashewImage from "@/assets/product-cashew.jpg";
 import shearNutsImage from "@/assets/product-shear-nuts.jpg";
 import sorghumImage from "@/assets/product-sorghum.jpg";
 
@@ -51,7 +52,7 @@ const Products = () => {
     {
       name: "Cashew Nuts",
       description: "Premium quality cashew nuts sourced from local farmers. Rich in healthy fats and perfect for snacking or processing. Available in bulk quantities.",
-      image: cassavaImage,
+      image: cashewImage,
       category: "Nuts",
     },
     {
