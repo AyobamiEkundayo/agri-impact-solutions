@@ -132,7 +132,7 @@ const About = () => {
                 <img
                   src={chairmanImage}
                   alt="Ademola Adeleke – Chairman Board of Advisory"
-                  className="w-full h-full object-cover object-left-top transition-transform duration-500 hover:scale-105"
+                  className="w-full h-full object-cover object-top transition-transform duration-500 hover:scale-105"
                 />
               </div>
             </div>
