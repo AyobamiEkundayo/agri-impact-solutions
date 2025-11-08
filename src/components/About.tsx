@@ -127,7 +127,7 @@ const About = () => {
         {/* Chairman Board of Advisory */}
         <div className="max-w-5xl mx-auto mb-10 md:mb-12">
           <div className="relative flex flex-col lg:flex-row-reverse items-center lg:items-start gap-6 md:gap-8 animate-fade-in">
-            <div className="relative z-10 flex-shrink-0">
+            <div className="relative z-10 flex-shrink-0 lg:-mr-6">
               <div className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden shadow-xl border-4 border-white">
                 <img
                   src={chairmanImage}
