@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, Target, Award, Users } from "lucide-react";
 import teamMeetingImage from "@/assets/team-meeting.jpg";
 import ceoImage from "@/assets/ceo-john.jpg";
+import chairmanImage from "@/assets/chairman-ademola.jpg";
 
 const About = () => {
   const values = [
@@ -118,6 +119,44 @@ const About = () => {
               <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
                 Leading Jotem Agro Allied Limited with a vision for sustainable
                 agriculture and community empowerment.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Chairman Board of Advisory */}
+        <div className="max-w-5xl mx-auto mb-10 md:mb-12">
+          <div className="relative flex flex-col lg:flex-row-reverse items-center lg:items-start gap-6 md:gap-8 animate-fade-in">
+            <div className="relative z-10 flex-shrink-0">
+              <div className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden shadow-xl border-4 border-white">
+                <img
+                  src={chairmanImage}
+                  alt="Ademola Adeleke – Chairman Board of Advisory"
+                  className="w-full h-full object-cover object-top transition-transform duration-500 hover:scale-105"
+                />
+              </div>
+            </div>
+
+            <div className="flex-1 bg-white rounded-2xl p-6 md:p-8 shadow-lg -ml-8 md:-ml-12 lg:mr-0 lg:mt-8">
+              <h4 className="text-lg md:text-xl font-bold text-primary mb-1">Board of Advisory</h4>
+              <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-1">
+                ADELEKE Adeoye Ademola
+              </h3>
+              <p className="text-sm md:text-base font-medium text-primary mb-2">
+                Chairman, Board of Advisory
+              </p>
+              <p className="text-xs md:text-sm text-muted-foreground mb-4">
+                BSc, OCA, MBA, CISA, CISM, CRISC
+              </p>
+              <p className="text-sm md:text-base text-muted-foreground leading-relaxed mb-3">
+                A seasoned Information Technology professional with over 25 years' cognate 
+                experience spanning across Financial Services and IT Consulting.
+              </p>
+              <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
+                Currently serves as Executive Director in charge of group Operations and 
+                Technology at TrustBanc Financial Group. Holds certifications in Information 
+                System Audit (CISA), Information Security Management (CISM), and Risk and 
+                Information Systems Control (CRISC).
               </p>
             </div>
           </div>
