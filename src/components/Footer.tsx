@@ -111,13 +111,13 @@ const Footer = () => {
               <li>
                 <a href="tel:+2347041181822" className="hover:text-secondary transition-colors flex items-center space-x-2">
                   <span>📞</span>
-                  <span>+234 704 118 1822</span>
+                  <span>+234 816 301 1685</span>
                 </a>
               </li>
               <li>
                 <a href="tel:+2348163011685" className="hover:text-secondary transition-colors flex items-center space-x-2">
                   <span>📞</span>
-                  <span>+234 816 301 1685</span>
+                  <span>+234 704 118 1822</span>
                 </a>
               </li>
               <li>
