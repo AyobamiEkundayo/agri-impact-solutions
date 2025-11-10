@@ -111,14 +111,23 @@ const About = () => {
             <div className="flex-1 bg-white rounded-2xl p-6 md:p-8 shadow-lg -ml-8 md:-ml-12 lg:ml-0 lg:mt-8">
               <h4 className="text-lg md:text-xl font-bold text-primary mb-1">Leadership</h4>
               <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-1">
-                John Folorunsho
+                FOLORUNSHO John Temitope
               </h3>
-              <p className="text-sm md:text-base font-medium text-primary mb-4">
+              <p className="text-sm md:text-base font-medium text-primary mb-2">
                 Chief Executive Officer
               </p>
+              <p className="text-xs md:text-sm text-muted-foreground mb-4">
+                B.Sc. Microbiology, M.Sc. Environmental Microbiology, MBA (in progress)
+              </p>
+              <p className="text-sm md:text-base text-muted-foreground leading-relaxed mb-3">
+                A highly competent and goal-oriented professional with extensive knowledge in operations, 
+                financial management, and company strategy. Successfully leads teams and executes plans 
+                that foster business growth.
+              </p>
               <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-                Leading Jotem Agro Allied Limited with a vision for sustainable
-                agriculture and community empowerment.
+                With solid experience in leadership and a deep awareness of industry dynamics, brings 
+                outstanding interpersonal abilities and capacity for change adaptation to drive 
+                organizational success in agricultural commodity trading.
               </p>
             </div>
           </div>
