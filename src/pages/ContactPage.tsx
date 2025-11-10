@@ -71,10 +71,10 @@ const ContactPage = () => {
               </CardHeader>
               <CardContent className="space-y-2">
                 <a href="tel:+2347041181822" className="block text-primary hover:underline font-semibold">
-                  +234 704 118 1822
+                  +234 816 301 1685
                 </a>
                 <a href="tel:+2348163011685" className="block text-primary hover:underline font-semibold">
-                  +234 816 301 1685
+                  +234 704 118 1822
                 </a>
               </CardContent>
             </Card>
